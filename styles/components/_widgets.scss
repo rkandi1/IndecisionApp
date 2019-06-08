@@ -1,0 +1,48 @@
+.widget {
+  background: $light-blue;
+}
+
+.widget-header {
+  background: $blue;
+  color: $sky-blue;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.widget__message {
+  color: $sky-blue;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 2px solid lighten($light-blue, 20%);
+}
+
+.add-option {
+  display: flex;
+  padding: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+.add-option__remove-all {
+  padding:0.75rem;
+}
+
+.add-option__input {
+  flex-grow: 1;
+  background: #45113E;
+  border:0;
+  margin-right:1rem;
+  color:white;
+}

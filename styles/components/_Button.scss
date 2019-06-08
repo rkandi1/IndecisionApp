@@ -1,0 +1,31 @@
+// The big radom picker button.
+.big-button {
+  background: $purple;
+  border: none;
+  border-bottom: 0.5rem solid darken($purple, 10%);
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1.5rem;
+  width:100%;
+}
+
+.big-button:disabled {
+  opacity: 0.5;
+}
+
+// Button
+.button {
+  background: $purple;
+  border: none;
+  border-bottom: 0.25rem solid darken($purple, 10%);
+  color: $sky-blue;
+  font-weight: 500;
+  padding: 0.75rem;
+}
+
+.button--link {
+  background: none;
+  border: none;
+  padding: 0;
+}
